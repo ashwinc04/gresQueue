@@ -1,0 +1,9 @@
+[project]
+name = "gresqueue"
+version = "0.1.0"
+description = "To make a queue system using Postgres as a backend"
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = [
+    "psycopg[binary]>=3.2.13",
+]
